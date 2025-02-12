@@ -2,9 +2,12 @@ import random
 
 MyArray = []
 
+
 for i in range(10):
     MyArray.append(random.randint(1,100))
 print(MyArray)
+
+
 
 def BubbleArray():
     for i in range(len(MyArray)):
@@ -18,3 +21,6 @@ def BubbleArray():
     return MyArray
 
 print(BubbleArray())
+
+
+     
